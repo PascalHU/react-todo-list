@@ -1,1 +1,11 @@
-/* Other rules */
+.to-do {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

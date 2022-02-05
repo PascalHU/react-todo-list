@@ -1,0 +1,12 @@
+.task-element {
+  display: flex;
+  gap: 20px;
+  width: 300px;
+  justify-content: flex-start;
+}
+.task-element span {
+  margin-left: auto;
+}
+.task-element input[type="checkbox"]:checked + label.task {
+  text-decoration: line-through;
+}
